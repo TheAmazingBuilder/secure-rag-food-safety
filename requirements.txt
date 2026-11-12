@@ -1,0 +1,5 @@
+scikit-learn>=1.3
+pytest>=7.0
+# Optional only — never required to run the default pipeline:
+# sentence-transformers>=2.2  # for the optional dense embedder in src/retrieve.py
+# openai>=1.0                  # only if you use the optional LLM in src/answer.py
